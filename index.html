@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="d-flex flex-column flex-md-row">
+        <div class="col-md-6"><img src="images/Screenshot 2023-12-20 142603.png" alt=""></div>
+        <div style="background-color:black; color: white;" class="col-12 col-md-6 p-3 d-flex flex-column align-items-center">
+            <h1 style="font-family:monospace; color:wheat; text-align: center;">Money Master</h1>
+            <h4>Income</h4>
+            <div class="d-flex justify-content-center">
+                <p>Income: <span><input id="four" class="input ms-3" type="text"></span></p>
+            </div>
+            <h4>Expenses</h4>
+            <div class="d-flex justify-content-center">
+                <p>Food: <span><input id="one" class="input ms-4" type="text"></span></p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p>Rent: <span><input id="two" class="input ms-4" type="text"></span></p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p>Clothes: <span><input id="three" class="input ms-2" type="text"></span></p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button id="cal" class="my-2 btn btn-primary">Calculate</button>
+            </div>
+        
+            <h4>Total Expenses: <span id="te">0000</span></h4>
+            <h4>Balance: <span id="bl">0000</span></h4>
+            <h4>
+                Save: <span><input type="text" name="" id="save-input"></span>
+                <span style="margin-right: 15px;">%</span>
+                <span><button id="sb" class="btn btn-primary">Save</button></span>
+            </h4>
+            <h4>Saving Account: <span id="sa">0000</span></h4>
+            <h4>Remaining Balance: <span id="rb">0000</span></h4>
+        </div>
+        
+    </section>
+    <script src="money.js"></script>
+</body>
+</html>
